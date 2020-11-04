@@ -5,8 +5,6 @@ import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 import com.appwork.mvvmloginmodule.db.entities.User
-import com.appwork.mvvmloginmodule.db.entities.UserDao
-import retrofit2.Retrofit
 
 @Database(entities = [User::class], version = 1)
 abstract class AppDatabase : RoomDatabase() {
